@@ -2,8 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - oneWayPlatForm
+  - Player1
+  - Player2
+  - Audio
   layers:
   - Default
   - TransparentFX
@@ -11,15 +15,15 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player1
+  - Player2
+  - OneWayPlatform
+  - Ground
+  - Terrain
+  - BlockPlatform
+  - GroundCheck
+  - Trap
+  - Door
   - 
   - 
   - 
@@ -38,6 +42,26 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2436978635
+    locked: 0
+  - name: Decoration
+    uniqueID: 1677722295
+    locked: 0
+  - name: Terrain
+    uniqueID: 4042385951
+    locked: 0
+  - name: GroundMap
+    uniqueID: 3653081743
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Trap
+    uniqueID: 1193703217
+    locked: 0
+  - name: Player
+    uniqueID: 112668445
+    locked: 0
+  m_RenderingLayers:
+  - Default
