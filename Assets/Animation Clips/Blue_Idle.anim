@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Frog_Idle
+  m_Name: Blue_Idle
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -20,19 +20,19 @@ AnimationClip:
   m_PPtrCurves:
   - serializedVersion: 2
     curve:
-    - time: 0
+    - time: 0.016666668
       value: {fileID: -6367560908665664636, guid: dd09beca9b9634c43b3741337dc47453, type: 3}
-    - time: 0.033333335
+    - time: 0.06666667
       value: {fileID: -6056987297122131021, guid: dd09beca9b9634c43b3741337dc47453, type: 3}
-    - time: 0.083333336
+    - time: 0.1
       value: {fileID: 8416797952724722639, guid: dd09beca9b9634c43b3741337dc47453, type: 3}
-    - time: 0.11666667
+    - time: 0.15
       value: {fileID: 4883129791460916795, guid: dd09beca9b9634c43b3741337dc47453, type: 3}
-    - time: 0.16666667
-      value: {fileID: 4278371960119211202, guid: dd09beca9b9634c43b3741337dc47453, type: 3}
     - time: 0.2
+      value: {fileID: 4278371960119211202, guid: dd09beca9b9634c43b3741337dc47453, type: 3}
+    - time: 0.23333333
       value: {fileID: 8644832591467991550, guid: dd09beca9b9634c43b3741337dc47453, type: 3}
-    - time: 0.25
+    - time: 0.23333333
       value: {fileID: -7152759390613953277, guid: dd09beca9b9634c43b3741337dc47453, type: 3}
     - time: 0.28333333
       value: {fileID: 6456874251884481089, guid: dd09beca9b9634c43b3741337dc47453, type: 3}
