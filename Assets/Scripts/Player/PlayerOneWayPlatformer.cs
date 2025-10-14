@@ -7,10 +7,11 @@ public class PlayerOneWayPlatformer : MonoBehaviour
     private GameObject currentOneWayPlatform;
     [SerializeField] private PlayerController playerController;
     [SerializeField] private BoxCollider2D playerCollider2D;
-    
+
     private Vector2 direction;
 
-    private void Update() {
+    private void Update()
+    {
         if (playerController.GetDirectionVector() != null)
         {
             direction = playerController.GetDirectionVector();
@@ -23,15 +24,17 @@ public class PlayerOneWayPlatformer : MonoBehaviour
             }
         }
     }
-    private void OnCollisionEnter2D(Collision2D other) {
-        if (other.gameObject.CompareTag("OneWayPlatform"))
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("oneWayPlatForm"))
         {
             currentOneWayPlatform = other.gameObject;
         }
     }
 
-    private void OnCollisionExit2D(Collision2D other) {
-        if (other.gameObject.CompareTag("OneWayPlatform"))
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("oneWayPlatForm"))
         {
             currentOneWayPlatform = null;
         }
@@ -40,9 +43,9 @@ public class PlayerOneWayPlatformer : MonoBehaviour
     private IEnumerator DisableCollision()
     {
         BoxCollider2D platformCollider = currentOneWayPlatform.GetComponent<BoxCollider2D>();
-        Physics2D.IgnoreCollision(playerCollider2D,platformCollider);
+        Physics2D.IgnoreCollision(playerCollider2D, platformCollider);
         yield return new WaitForSeconds(0.5f);
-        Physics2D.IgnoreCollision(playerCollider2D,platformCollider,false);
+        Physics2D.IgnoreCollision(playerCollider2D, platformCollider, false);
     }
 
 }
