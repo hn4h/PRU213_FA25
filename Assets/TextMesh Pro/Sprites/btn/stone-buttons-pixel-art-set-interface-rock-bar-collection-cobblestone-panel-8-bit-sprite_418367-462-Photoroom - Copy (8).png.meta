@@ -1,0 +1,901 @@
+fileFormatVersion: 2
+guid: 75815f7728b7a3046b0005eb30857287
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6562069537343947921
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_0
+  - first:
+      213: 4770188312757888184
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_1
+  - first:
+      213: 2852726251082683571
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_2
+  - first:
+      213: 9004163773368746447
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_3
+  - first:
+      213: -4527590864652348484
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_4
+  - first:
+      213: 7403425817768171720
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_5
+  - first:
+      213: 1530080786600878102
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_6
+  - first:
+      213: -1649901192704020394
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_7
+  - first:
+      213: 123640572383737983
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_8
+  - first:
+      213: -4317512071743488452
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_9
+  - first:
+      213: 3422818643219335684
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_10
+  - first:
+      213: -7781793752545082714
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_11
+  - first:
+      213: -6057082895430478403
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_12
+  - first:
+      213: -734909673583308960
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_13
+  - first:
+      213: 9095898557804475356
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_14
+  - first:
+      213: -2342538875377317981
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_15
+  - first:
+      213: -6560347319248981111
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_16
+  - first:
+      213: 2515216487652949193
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_17
+  - first:
+      213: 4465108369491939975
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_18
+  - first:
+      213: -7037973272657487749
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_19
+  - first:
+      213: 5190594042172708692
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_20
+  - first:
+      213: 3781785139746724475
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_21
+  - first:
+      213: -8400292593265674074
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_22
+  - first:
+      213: -3110882572334599389
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_23
+  - first:
+      213: 2890072379678050127
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_24
+  - first:
+      213: -3119151132593841043
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_25
+  - first:
+      213: -266626623604253625
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_26
+  - first:
+      213: 5366883408253630862
+    second: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+      - Copy (8)_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 406
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1944cc41a77211b50800000000000000
+      internalID: 6562069537343947921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 406
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b467a53ffc133240800000000000000
+      internalID: 4770188312757888184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 406
+        width: 85
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b41735396be69720800000000000000
+      internalID: 2852726251082683571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 411
+        width: 188
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1c51bee3735fc70800000000000000
+      internalID: 9004163773368746447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_4
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 411
+        width: 188
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3d718c814ca21c0800000000000000
+      internalID: -4527590864652348484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_5
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 411
+        width: 188
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c817056e804eb660800000000000000
+      internalID: 7403425817768171720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_6
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 411
+        width: 188
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610eef26e50fb3510800000000000000
+      internalID: 1530080786600878102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 310
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65032665b9f5a19e0800000000000000
+      internalID: -1649901192704020394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_8
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 310
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7832cc027247b100800000000000000
+      internalID: 123640572383737983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_9
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 310
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3eb44a55ad1514c0800000000000000
+      internalID: -4317512071743488452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_10
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 315
+        width: 188
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a4cafcb6b408f20800000000000000
+      internalID: 3422818643219335684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_11
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 315
+        width: 188
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a24230dfc3810490800000000000000
+      internalID: -7781793752545082714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_12
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 315
+        width: 188
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db595cac23be0fba0800000000000000
+      internalID: -6057082895430478403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_13
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 315
+        width: 188
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f811cab831dc5f0800000000000000
+      internalID: -734909673583308960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_14
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 213
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd37ce2db8f1b3e70800000000000000
+      internalID: 9095898557804475356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 213
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7879cdd41ad7fd0800000000000000
+      internalID: -2342538875377317981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_16
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 213
+        width: 85
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9837af01fd6f4f4a0800000000000000
+      internalID: -6560347319248981111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_17
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 218
+        width: 188
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc72cfb118d7e220800000000000000
+      internalID: 2515216487652949193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_18
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 218
+        width: 188
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782d037a76047fd30800000000000000
+      internalID: 4465108369491939975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_19
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 218
+        width: 188
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b789e88e898145e90800000000000000
+      internalID: -7037973272657487749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_20
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 218
+        width: 188
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45796f8c7c1b80840800000000000000
+      internalID: 5190594042172708692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 117
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a547f3c899b7430800000000000000
+      internalID: 3781785139746724475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_22
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 117
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8fd01a46a2c6b80800000000000000
+      internalID: -8400292593265674074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_23
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 117
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323fa0a58cce3d4d0800000000000000
+      internalID: -3110882572334599389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_24
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 122
+        width: 188
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47c0ed54899b1820800000000000000
+      internalID: 2890072379678050127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_25
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 122
+        width: 187
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c9cf4229c86b4d0800000000000000
+      internalID: -3119151132593841043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_26
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 122
+        width: 188
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c186c9f70cc4cf0800000000000000
+      internalID: -266626623604253625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom
+        - Copy (8)_27
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 122
+        width: 188
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8935eb56000b7a40800000000000000
+      internalID: 5366883408253630862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_0: 6562069537343947921
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_1: 4770188312757888184
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_10: 3422818643219335684
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_11: -7781793752545082714
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_12: -6057082895430478403
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_13: -734909673583308960
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_14: 9095898557804475356
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_15: -2342538875377317981
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_16: -6560347319248981111
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_17: 2515216487652949193
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_18: 4465108369491939975
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_19: -7037973272657487749
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_2: 2852726251082683571
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_20: 5190594042172708692
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_21: 3781785139746724475
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_22: -8400292593265674074
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_23: -3110882572334599389
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_24: 2890072379678050127
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_25: -3119151132593841043
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_26: -266626623604253625
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_27: 5366883408253630862
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_3: 9004163773368746447
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_4: -4527590864652348484
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_5: 7403425817768171720
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_6: 1530080786600878102
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_7: -1649901192704020394
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_8: 123640572383737983
+      stone-buttons-pixel-art-set-interface-rock-bar-collection-cobblestone-panel-8-bit-sprite_418367-462-Photoroom - Copy (8)_9: -4317512071743488452
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
