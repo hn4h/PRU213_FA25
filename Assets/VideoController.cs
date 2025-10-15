@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class VideoController : MonoBehaviour
 {
-    public VideoPlayer videoPlayer;     
-    public string nextSceneName;        
+    [SerializeField] private VideoPlayer videoPlayer;     
+    [SerializeField] private string nextSceneName;        
     void Start()
     {
         videoPlayer.loopPointReached += OnVideoEnd;
@@ -13,6 +13,6 @@ public class VideoController : MonoBehaviour
 
     void OnVideoEnd(VideoPlayer vp)
     {
-        SceneManager.LoadScene("LevelScreen");
+        SceneManager.LoadScene(nextSceneName);
     }
 }
