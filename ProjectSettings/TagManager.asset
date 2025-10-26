@@ -8,6 +8,9 @@ TagManager:
   - Player1
   - Player2
   - Audio
+  - lava
+  - water
+  - poison
   layers:
   - Default
   - TransparentFX
