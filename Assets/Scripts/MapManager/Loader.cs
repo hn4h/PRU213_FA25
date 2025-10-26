@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public static class Loader 
 {
 
-    public enum Scene{
+    public enum Scene
+    {
         MainMenuScene,
         LoadingScene,
         SelectLevelScene,
@@ -15,6 +16,9 @@ public static class Loader
         Level3Scene,
         Level4Scene,
         Level5Scene,
+        LevelScreen,
+        MainScreen,
+        Story
     }
     
     public static Scene targetScene;
