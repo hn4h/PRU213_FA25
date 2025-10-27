@@ -23,7 +23,7 @@ public class MainMenuUI : MonoBehaviour
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         playButton.onClick.AddListener(() =>{
             audioManager.PlaySFX(audioManager.action);
-            Loader.Load(Loader.Scene.Story);
+            StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Story));
         });
         optionButton.onClick.AddListener(() =>{
             audioManager.PlaySFX(audioManager.action);
@@ -44,5 +44,12 @@ public class MainMenuUI : MonoBehaviour
         // {
         //     OptionPanelUI.SetActive(false);
         // }
+    }
+
+    private IEnumerator LoadSceneAfterDelay(Loader.Scene scene)
+    {
+        // Đợi một chút để sound effect kịp phát
+        yield return new WaitForSeconds(0.2f);
+        Loader.Load(scene);
     }
 }
