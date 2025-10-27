@@ -11,6 +11,8 @@ TagManager:
   - lava
   - water
   - poison
+  - OneWayPlatform
+  - BlockPlatform
   layers:
   - Default
   - TransparentFX
