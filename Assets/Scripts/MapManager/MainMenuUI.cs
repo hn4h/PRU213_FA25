@@ -7,9 +7,9 @@ using UnityEngine.UI;
 public class MainMenuUI : MonoBehaviour
 {
     // [SerializeField] GameObject LevelPanel;
-    // [SerializeField] GameObject OptionPanelUI;
+    [SerializeField] GameObject OptionPanelUI;
     [SerializeField] GameObject MainMenuButtons;
-    // [SerializeField] GameObject ConfirmDeleteData;
+    [SerializeField] GameObject ConfirmDeleteData;
     
     [SerializeField] Button playButton;
     [SerializeField] Button optionButton;
@@ -18,7 +18,7 @@ public class MainMenuUI : MonoBehaviour
 
    AudioManager audioManager;
    private void Awake(){
-        // OptionPanelUI.SetActive(false);
+        OptionPanelUI.SetActive(false);
         MainMenuButtons.SetActive(true);
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         playButton.onClick.AddListener(() =>{
@@ -27,7 +27,7 @@ public class MainMenuUI : MonoBehaviour
         });
         optionButton.onClick.AddListener(() =>{
             audioManager.PlaySFX(audioManager.action);
-            // OptionPanelUI.SetActive(true);
+            OptionPanelUI.SetActive(true);
         });
         // quitButton.onClick.AddListener(() =>{
         //     audioManager.PlaySFX(audioManager.action);
@@ -36,14 +36,14 @@ public class MainMenuUI : MonoBehaviour
     }
 
     private void Update() {
-        // if (ConfirmDeleteData.activeSelf && OptionPanelUI.activeSelf && Input.GetKeyDown(KeyCode.Escape))
-        // {
-        //     ConfirmDeleteData.SetActive(false);
-        // }
-        // else if (OptionPanelUI.activeSelf && Input.GetKeyDown(KeyCode.Escape))
-        // {
-        //     OptionPanelUI.SetActive(false);
-        // }
+        if (ConfirmDeleteData.activeSelf && OptionPanelUI.activeSelf && Input.GetKeyDown(KeyCode.Escape))
+        {
+            ConfirmDeleteData.SetActive(false);
+        }
+        else if (OptionPanelUI.activeSelf && Input.GetKeyDown(KeyCode.Escape))
+        {
+            OptionPanelUI.SetActive(false);
+        }
     }
 
     private IEnumerator LoadSceneAfterDelay(Loader.Scene scene)
