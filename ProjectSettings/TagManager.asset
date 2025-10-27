@@ -13,6 +13,7 @@ TagManager:
   - poison
   - OneWayPlatform
   - BlockPlatform
+  - trap
   layers:
   - Default
   - TransparentFX
