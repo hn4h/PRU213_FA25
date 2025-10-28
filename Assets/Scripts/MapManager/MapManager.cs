@@ -12,8 +12,8 @@ public class MapManager : MonoBehaviour
     // [SerializeField] private Canvas questionCanvas;
     // [SerializeField] private Timer quizTimer;
     // [SerializeField] private GameObject[] secretQuestionBoxArray;
-    // [SerializeField] private LevelEntrance levelEntrance;
-    // [SerializeField] private GameObject finishPoint;
+    [SerializeField] private LevelEntrance levelEntrance;
+    [SerializeField] private GameObject finishPoint;
 
     // private ScoreKeeper scoreKeeper;
 
@@ -37,7 +37,7 @@ public class MapManager : MonoBehaviour
         //     questionBox.GetComponent<SecretQuesBox>().OnOpenSecretQuestion += QuestionBox_OnOpenSecretQuestion;
         // }
         // quizTimer.OnWaitingTimeOver += Timer_OnWaitingTimeOver;
-        // levelEntrance.OnOutOfTheMap += LevelEntrance_OnOutOfTheMap;
+        levelEntrance.OnOutOfTheMap += LevelEntrance_OnOutOfTheMap;
 
         // scoreKeeper = FindObjectOfType<ScoreKeeper>();
     }
@@ -46,7 +46,7 @@ public class MapManager : MonoBehaviour
     {
 
         //unlock new level
-        // finishPoint.GetComponent<FinishPoint>().UnlockNewLevel();
+        finishPoint.GetComponent<FinishPoint>().UnlockNewLevel();
 
         //loading the next level scene
         Loader.LoadTheNextScene();

@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
         //respawn players to revive point
         Debug.Log("Player has died!");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        OnPlayerDie?.Invoke(this,EventArgs.Empty);
+        OnPlayerDie?.Invoke(this, EventArgs.Empty);
 
 
     }
@@ -25,21 +25,21 @@ public class PlayerHealth : MonoBehaviour
     {
         if (other.CompareTag("lava"))
         {
-            if (!isFireboy) 
+            if (!isFireboy)
             {
-                
+
                 Die();
             }
         }
         // Xử lý va chạm với Nước (Water)
         else if (other.CompareTag("water"))
         {
-            if (isFireboy) 
+            if (isFireboy)
             {
                 Die();
             }
         }
-        else if (other.CompareTag("poison"))
+        else if (other.CompareTag("poison") || other.CompareTag("trap"))
         {
             Die();
         }
