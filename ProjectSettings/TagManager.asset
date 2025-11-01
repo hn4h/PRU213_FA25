@@ -8,6 +8,12 @@ TagManager:
   - Player1
   - Player2
   - Audio
+  - lava
+  - water
+  - poison
+  - OneWayPlatform
+  - BlockPlatform
+  - trap
   layers:
   - Default
   - TransparentFX

@@ -22,7 +22,7 @@ public class Moveable : MonoBehaviour
 
     public bool IsTurnOn = false;
     public bool hasLight;
-    [SerializeField] private Light2D light2d;
+    //[SerializeField] private Light2D light2d;
     [SerializeField] private float lightIntensity = 0.2f;
     [SerializeField] private Type _type;
     [SerializeField] private Direction direction;
@@ -32,7 +32,7 @@ public class Moveable : MonoBehaviour
     [SerializeField] private Transform leftPos;
     [SerializeField] private Transform rightPos;
     [SerializeField] private Transform openPosition;
-    private bool isMoveDown;
+    public bool isMoveDown;
     private bool isMoveRight;
     private Vector3 initPosition;
 
@@ -41,7 +41,7 @@ public class Moveable : MonoBehaviour
         initPosition = transform.position;
         if (!IsTurnOn && hasLight)
         {
-            light2d.intensity = 0;   
+            //light2d.intensity = 0;   
         }
     }
 
@@ -89,17 +89,17 @@ public class Moveable : MonoBehaviour
             }
         }
 
-        if (hasLight)
-        {
-            if (IsTurnOn)
-            {
-                light2d.intensity = lightIntensity;
-            }
-            else if(!IsTurnOn && _type!=Type.LevelEntrance)
-            {
-                light2d.intensity = 0;
-            }
-        }
+        //if (hasLight)
+        //{
+        //    if (IsTurnOn)
+        //    {
+        //        light2d.intensity = lightIntensity;
+        //    }
+        //    else if(!IsTurnOn && _type!=Type.LevelEntrance)
+        //    {
+        //        light2d.intensity = 0;
+        //    }
+        //}
     }
 
     private void MoveHorizontal()
@@ -133,11 +133,11 @@ public class Moveable : MonoBehaviour
     {
         if (IsTurnOn)
         {  
-            if (transform.position.y == upperPos.position.y)
+            if (transform.position.y >= upperPos.position.y)
             {
                 isMoveDown = true;
             }
-            else if(transform.position.y == downPos.position.y)
+            else if(transform.position.y <= downPos.position.y)
             {
                 isMoveDown = false;
             }

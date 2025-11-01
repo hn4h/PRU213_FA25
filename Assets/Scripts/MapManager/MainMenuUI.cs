@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenuUI : MonoBehaviour
 {
-    [SerializeField] GameObject LevelPanel;
+    // [SerializeField] GameObject LevelPanel;
     [SerializeField] GameObject OptionPanelUI;
     [SerializeField] GameObject MainMenuButtons;
     [SerializeField] GameObject ConfirmDeleteData;
     
     [SerializeField] Button playButton;
     [SerializeField] Button optionButton;
-    [SerializeField] Button quitButton;
+    // [SerializeField] Button quitButton;
     
 
    AudioManager audioManager;
@@ -22,16 +23,16 @@ public class MainMenuUI : MonoBehaviour
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         playButton.onClick.AddListener(() =>{
             audioManager.PlaySFX(audioManager.action);
-            LevelPanel.SetActive(true);
+            StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Story));
         });
         optionButton.onClick.AddListener(() =>{
             audioManager.PlaySFX(audioManager.action);
             OptionPanelUI.SetActive(true);
         });
-        quitButton.onClick.AddListener(() =>{
-            audioManager.PlaySFX(audioManager.action);
-            Application.Quit();
-        });
+        // quitButton.onClick.AddListener(() =>{
+        //     audioManager.PlaySFX(audioManager.action);
+        //     Application.Quit();
+        // });
     }
 
     private void Update() {
@@ -43,5 +44,12 @@ public class MainMenuUI : MonoBehaviour
         {
             OptionPanelUI.SetActive(false);
         }
+    }
+
+    private IEnumerator LoadSceneAfterDelay(Loader.Scene scene)
+    {
+        // Đợi một chút để sound effect kịp phát
+        yield return new WaitForSeconds(0.2f);
+        Loader.Load(scene);
     }
 }
