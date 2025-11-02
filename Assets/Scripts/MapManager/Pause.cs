@@ -89,10 +89,10 @@ public class Pause : MonoBehaviour
             }
             else
             {
-                    ResumeGame();
-                    player1.GetComponent<PlayerController>().CanMove = true;
-                    player2.GetComponent<PlayerController>().CanMove = true;
-                    isPaused = false;
+                ResumeGame();
+                player1.GetComponent<PlayerController>().CanMove = true;
+                player2.GetComponent<PlayerController>().CanMove = true;
+                isPaused = false;
             }
         }
 
@@ -118,7 +118,7 @@ public class Pause : MonoBehaviour
 
     public void LoadHomeScene()
     {
-        Loader.Load(Loader.Scene.MainMenuScene);
+        Loader.Load(Loader.Scene.MainScreen);
         Time.timeScale = 1;
 
     }
