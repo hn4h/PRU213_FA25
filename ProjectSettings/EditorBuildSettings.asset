@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Examplemap.unity
     guid: b8cce66713c675748b48024bfbe90eea
   - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 3024bd6f1a321004190e7535de8a90b2
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: e04accea02078ad4f84037ba98884b7c
+  - enabled: 1
     path: Assets/Scenes/LoadingScene.unity
     guid: 4ee9f01686be9394fa896a2bc50871c8
   m_configObjects:

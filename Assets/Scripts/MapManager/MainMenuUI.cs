@@ -13,10 +13,10 @@ public class MainMenuUI : MonoBehaviour
     
     [SerializeField] Button playButton;
     [SerializeField] Button optionButton;
-    // [SerializeField] Button quitButton;
-    
+    [SerializeField] Button quitButton;
 
-   AudioManager audioManager;
+
+    AudioManager audioManager;
    private void Awake(){
         OptionPanelUI.SetActive(false);
         MainMenuButtons.SetActive(true);
@@ -29,10 +29,11 @@ public class MainMenuUI : MonoBehaviour
             audioManager.PlaySFX(audioManager.action);
             OptionPanelUI.SetActive(true);
         });
-        // quitButton.onClick.AddListener(() =>{
-        //     audioManager.PlaySFX(audioManager.action);
-        //     Application.Quit();
-        // });
+        quitButton.onClick.AddListener(() =>
+        {
+            audioManager.PlaySFX(audioManager.action);
+            Application.Quit();
+        });
     }
 
     private void Update() {
