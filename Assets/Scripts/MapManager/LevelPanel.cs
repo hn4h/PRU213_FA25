@@ -32,19 +32,19 @@ public class LevelPanel : MonoBehaviour
 
         levelButtons[0].onClick.AddListener(() =>{
             audioManager.PlaySFX(audioManager.action);
-            Loader.Load(Loader.Scene.Level1Scene);
+            Loader.Load(Loader.Scene.Level1);
         });
         levelButtons[1].onClick.AddListener(() =>{
             audioManager.PlaySFX(audioManager.action);
-            Loader.Load(Loader.Scene.Level2Scene);
+            Loader.Load(Loader.Scene.Level2);
         });
         levelButtons[2].onClick.AddListener(() =>{
             audioManager.PlaySFX(audioManager.action);
-            Loader.Load(Loader.Scene.Level3Scene);
+            Loader.Load(Loader.Scene.Level3);
         });
         levelButtons[3].onClick.AddListener(() =>{
             audioManager.PlaySFX(audioManager.action);
-            Loader.Load(Loader.Scene.Level4Scene);
+            Loader.Load(Loader.Scene.Level4);
         });
 
 
