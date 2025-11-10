@@ -15,6 +15,7 @@ public class MapManager : MonoBehaviour
     [SerializeField] private LevelEntrance levelEntrance;
     [SerializeField] private GameObject finishPoint;
 
+    [SerializeField] private Loader.Scene nextSceneName;
     // private ScoreKeeper scoreKeeper;
 
     AudioManager audioManager;
@@ -49,7 +50,7 @@ public class MapManager : MonoBehaviour
         finishPoint.GetComponent<FinishPoint>().UnlockNewLevel();
 
         //loading the next level scene
-        Loader.LoadTheNextScene();
+        Loader.Load(nextSceneName);
     }
 
     // private void Timer_OnWaitingTimeOver(object sender, EventArgs e)

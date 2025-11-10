@@ -1555,6 +1555,7 @@ MonoBehaviour:
   player2: {fileID: 918601503}
   levelEntrance: {fileID: 350227267}
   finishPoint: {fileID: 1013109716}
+  nextSceneName: 7
 --- !u!4 &931209202
 Transform:
   m_ObjectHideFlags: 0
@@ -2663,7 +2664,8 @@ PrefabInstance:
       propertyPath: 'wallArray.Array.data[2]'
       value: 
       objectReference: {fileID: 1739203191}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5827589342587524232, guid: 3e7ade927d6d9174ebaafcbf2e26115e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

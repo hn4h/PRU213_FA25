@@ -6867,6 +6867,10 @@ PrefabInstance:
       propertyPath: levelEntrance
       value: 
       objectReference: {fileID: 141227740}
+    - target: {fileID: 2578097887603194399, guid: 0222c29921a15a841bb2640aa1f529a0, type: 3}
+      propertyPath: nextSceneName
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4280888882706850634, guid: 0222c29921a15a841bb2640aa1f529a0, type: 3}
       propertyPath: m_Name
       value: Map Manager
