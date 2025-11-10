@@ -32,7 +32,7 @@ public class LevelUI : MonoBehaviour
             BackButton.onClick.AddListener(() =>
             {
                 audioManager.PlaySFX(audioManager.action);
-                StartCoroutine(LoadSceneAfterDelay(Loader.Scene.MainMenuScene));
+                StartCoroutine(LoadSceneAfterDelay(Loader.Scene.MainMenuScreen));
             });
 
 
@@ -40,35 +40,35 @@ public class LevelUI : MonoBehaviour
             {
                 // Chọn Level 1
                 audioManager.PlaySFX(audioManager.action);
-                StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Level1Scene));
+                StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Level1));
             });
 
             levelButtons[1].onClick.AddListener(() =>
             {
                 // Chọn Level 2
                 audioManager.PlaySFX(audioManager.action);
-                StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Level2Scene));
+                StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Level2));
             });
 
             levelButtons[2].onClick.AddListener(() =>
             {
                 // Chọn Level 3
                 audioManager.PlaySFX(audioManager.action);
-                StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Level3Scene));
+                StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Level3));
             });
 
             levelButtons[3].onClick.AddListener(() =>
             {
                 // Chọn Level 4
                 audioManager.PlaySFX(audioManager.action);
-                StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Level4Scene));
+                StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Level4));
             });
 
             levelButtons[4].onClick.AddListener(() =>
             {
                 // Chọn Level 5
                 audioManager.PlaySFX(audioManager.action);
-                StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Level5Scene));
+                StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Level5));
             });
         }
     }

@@ -8,16 +8,16 @@ public static class Loader
 
     public enum Scene
     {
-        MainMenuScene,
+        MainMenuScreen,
         LoadingScene,
-        SelectLevelScene,
-        Level1Scene,
-        Level2Scene,
-        Level3Scene,
-        Level4Scene,
-        Level5Scene,
+        //SelectLevelScene,
+        Level1,
+        Level2,
+        Level3,
+        Level4,
+        Level5,
         LevelScreen,
-        MainScreen,
+        //MainScreen,
         Story
     }
     
@@ -50,7 +50,7 @@ public static class Loader
         }
         else
         {
-            Loader.Load(Loader.Scene.MainMenuScene);
+            Loader.Load(Loader.Scene.MainMenuScreen);
         }
     }
 }
