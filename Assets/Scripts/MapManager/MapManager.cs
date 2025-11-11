@@ -15,6 +15,7 @@ public class MapManager : MonoBehaviour
     [SerializeField] private LevelEntrance levelEntrance;
     [SerializeField] private GameObject finishPoint;
 
+    [SerializeField] private Loader.Scene nextSceneName;
     // private ScoreKeeper scoreKeeper;
 
     AudioManager audioManager;
@@ -49,7 +50,7 @@ public class MapManager : MonoBehaviour
         finishPoint.GetComponent<FinishPoint>().UnlockNewLevel();
 
         //loading the next level scene
-        Loader.LoadTheNextScene();
+        Loader.Load(nextSceneName);
     }
 
     // private void Timer_OnWaitingTimeOver(object sender, EventArgs e)
@@ -88,7 +89,7 @@ public class MapManager : MonoBehaviour
         audioManager.StopMusic();
         Destroy(player1);
         Destroy(player2);
-        //audioManager.PlaySFX(audioManager.lose);
+        audioManager.PlaySFX(audioManager.lose);
         GameOverManager.Instance.Show();
         Time.timeScale = 0f;
         Pause.Instance.canPause = false;
