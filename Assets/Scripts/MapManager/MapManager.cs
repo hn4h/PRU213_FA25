@@ -91,9 +91,9 @@ public class MapManager : MonoBehaviour
         Destroy(player2);
         audioManager.PlaySFX(audioManager.lose);
         GameOverManager.Instance.Show();
+        Debug.Log("A player has died! Game Over!");
         Time.timeScale = 0f;
         Pause.Instance.canPause = false;
-        
     }
 
     // private void Update() {

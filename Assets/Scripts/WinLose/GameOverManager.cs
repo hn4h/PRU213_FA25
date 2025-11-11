@@ -49,7 +49,7 @@ public class GameOverManager : MonoBehaviour
 
     public void ReturnHome()
     {
-        Loader.Load(Loader.Scene.MainMenuScreen);
+        Loader.Load(Loader.Scene.LevelScreen);
         Time.timeScale = 1f;
     }
 }
