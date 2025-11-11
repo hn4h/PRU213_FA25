@@ -118,7 +118,7 @@ public class Pause : MonoBehaviour
 
     public void LoadHomeScene()
     {
-        Loader.Load(Loader.Scene.MainMenuScreen);
+        Loader.Load(Loader.Scene.LevelScreen);
         Time.timeScale = 1;
 
     }
