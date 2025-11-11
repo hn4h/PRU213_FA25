@@ -48,9 +48,12 @@ public class MapManager : MonoBehaviour
 
         //unlock new level
         finishPoint.GetComponent<FinishPoint>().UnlockNewLevel();
-
+        audioManager.PlaySFX(audioManager.win);
+        GameWinManager.Instance.Show();
+        Time.timeScale = 0f;
+        Pause.Instance.canPause = false;
         //loading the next level scene
-        Loader.Load(nextSceneName);
+        // Loader.Load(nextSceneName);
     }
 
     // private void Timer_OnWaitingTimeOver(object sender, EventArgs e)
