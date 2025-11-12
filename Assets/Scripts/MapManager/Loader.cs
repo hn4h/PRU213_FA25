@@ -18,7 +18,8 @@ public static class Loader
         Level5,
         LevelScreen,
         //MainScreen,
-        Story
+        Story,
+        StoryEnd
     }
     
     public static Scene targetScene;

@@ -15,7 +15,6 @@ public class PlayerHealth : MonoBehaviour
 
         //respawn players to revive point
         Debug.Log("Player has died!");
-        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         OnPlayerDie?.Invoke(this, EventArgs.Empty);
 
 

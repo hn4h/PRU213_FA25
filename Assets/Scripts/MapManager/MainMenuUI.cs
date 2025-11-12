@@ -32,7 +32,7 @@ public class MainMenuUI : MonoBehaviour
         quitButton.onClick.AddListener(() =>
         {
             audioManager.PlaySFX(audioManager.action);
-            Application.Quit();
+            SceneManager.LoadScene("AboutUs");
         });
     }
 
