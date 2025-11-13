@@ -29,27 +29,67 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 vector3Up;
     AudioManager audioManager;
-    private void Awake()
+    PlayerHealth playerHealth;
+    // private void Awake()
+    // {
+    //     audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();     
+    //     rb2d = GetComponent<Rigidbody2D>();
+    //     playerHealth = GetComponent<PlayerHealth>();
+    // }
+    // private void Start()
+    // {
+    //     playerHealth.OnPlayerDie += Health_OnPlayerDie;
+    //     if (ReverseGravityZone.Instance != null)
+    //     {
+    //         ReverseGravityZone.Instance.OnReverseGravity += ReverseGravityZone_OnReverseGravity;    
+    //     }
+    //     if (GameInput.Instance != null)
+    //     {
+    //         if (gameObject.tag == "Player1")
+    //         {
+    //             GameInput.Instance.GetPlayerInputSystem().Player1.Jump.performed += OnJump;
+    //         }
+    //         else
+    //         {
+    //             GameInput.Instance.GetPlayerInputSystem().Player2.Jump.performed += OnJump;
+    //         }
+    //     }
+    // }
+
+    void OnEnable()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();     
-    }
-    private void Start()
-    {
         rb2d = GetComponent<Rigidbody2D>();
-        transform.GetComponent<PlayerHealth>().OnPlayerDie += Health_OnPlayerDie;
-        if (ReverseGravityZone.Instance != null)
-        {
-            ReverseGravityZone.Instance.OnReverseGravity += ReverseGravityZone_OnReverseGravity;    
-        }
+        playerHealth = GetComponent<PlayerHealth>();
+        playerHealth.OnPlayerDie += Health_OnPlayerDie;
         if (GameInput.Instance != null)
         {
             if (gameObject.tag == "Player1")
             {
-                GameInput.Instance.GetPlayerInputSystem().Player1.Jump.performed += ctx => OnJump(ctx);
+                GameInput.Instance.GetPlayerInputSystem().Player1.Jump.performed += OnJump;
+                GameInput.Instance.GetPlayerInputSystem().Player1.Enable();
             }
             else
             {
-                GameInput.Instance.GetPlayerInputSystem().Player2.Jump.performed += ctx => OnJump(ctx);
+                GameInput.Instance.GetPlayerInputSystem().Player2.Jump.performed += OnJump;
+                GameInput.Instance.GetPlayerInputSystem().Player2.Enable();
+            }
+        }
+    }
+
+    void OnDisable()
+    {
+        if (GameInput.Instance != null)
+        {
+            if (gameObject.tag == "Player1")
+            {
+                GameInput.Instance.GetPlayerInputSystem().Player1.Jump.performed -= OnJump;
+                GameInput.Instance.GetPlayerInputSystem().Player1.Disable();
+            }
+            else
+            {
+                GameInput.Instance.GetPlayerInputSystem().Player2.Jump.performed -= OnJump;
+                GameInput.Instance.GetPlayerInputSystem().Player2.Disable();
             }
         }
     }
@@ -93,8 +133,13 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionExit2D(Collision2D other) {
         if (other.gameObject.GetComponent<Moveable>() && transform.parent == other.transform)
         {
-            transform.SetParent(null);
+            Invoke("DetachParent",0.1f);
         }
+    }
+
+    private void DetachParent()
+    {
+        transform.SetParent(null);
     }
     public void HorizontalMovement()
     {

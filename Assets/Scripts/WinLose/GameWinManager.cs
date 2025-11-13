@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,12 +13,14 @@ public class GameWinManager : MonoBehaviour
     [SerializeField] private Button backButton;
     [SerializeField] private GameObject pauseButton;
     [SerializeField] private Loader.Scene nextScene;
+    [SerializeField] private TextMeshProUGUI timeCompletionText;
     AudioManager audioManager;
 
    private void Awake(){
         Instance = this;
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         Hide();
+        Time.timeScale = 1f;
         
         nextLevelButton.onClick.AddListener(() =>{
             audioManager.PlaySFX(audioManager.action);
@@ -39,6 +42,15 @@ public class GameWinManager : MonoBehaviour
     {
         winningUI.SetActive(true);
         pauseButton.SetActive(false);
+        // Khi thắng màn: dừng timer và hiển thị thời gian hoàn thành
+        if (LevelTimer.Instance != null)
+        {
+            LevelTimer.Instance.StopTimer();
+            if (timeCompletionText != null)
+            {
+                timeCompletionText.text = "Time completed: " + LevelTimer.Instance.GetFormattedTime();
+            }
+        }
     }
 
     public void NextLevel()

@@ -23,7 +23,16 @@ public class GameInput : MonoBehaviour
     private const string DEFAULT_PLAYER_PREFS_BINDING = "DefaultInputBindings";
     
     private void Awake() {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
         playerInputSystem = new PlayerInputSystem();
         if (!PlayerPrefs.HasKey(DEFAULT_PLAYER_PREFS_BINDING))
         {
@@ -36,8 +45,6 @@ public class GameInput : MonoBehaviour
         }
         playerInputSystem.Player1.Enable();
         playerInputSystem.Player2.Enable();
-
-        
     }
 
     public string GetBindingText(Binding binding)
