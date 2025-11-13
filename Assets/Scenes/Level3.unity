@@ -2561,6 +2561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6631986534131880312, guid: 60e93682c31ab474fafefd6648c81867, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9034,6 +9038,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 960038634027060820, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 960038634027060820, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113729246228036700, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6946590925052441426, guid: 95374742ba028e246bd6f3d4d7d30f3d, type: 3}
+    - target: {fileID: 4515721694000571049, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: nextScene
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515721694000571049, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: pauseButton
+      value: 
+      objectReference: {fileID: 1583284667}
     - target: {fileID: 6135879121667696927, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -9112,6 +9136,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6135879121667696927, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8013958103240937998, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

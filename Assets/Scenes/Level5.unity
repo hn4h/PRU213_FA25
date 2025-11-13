@@ -7881,6 +7881,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 960038634027060820, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 960038634027060820, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113729246228036700, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5368435233437883610, guid: 0bd7587f8feec714abc20b1de816b5bd, type: 3}
+    - target: {fileID: 4515721694000571049, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: nextScene
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4515721694000571049, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
       propertyPath: pauseButton
       value: 
@@ -7967,7 +7983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8013958103240937998, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

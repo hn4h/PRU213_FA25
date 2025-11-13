@@ -4635,6 +4635,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 960038634027060820, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 960038634027060820, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113729246228036700, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1084870471915973256, guid: 0f1a7ae020ea43c4ca7f47edd791d64f, type: 3}
+    - target: {fileID: 4515721694000571049, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: nextScene
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515721694000571049, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: pauseButton
+      value: 
+      objectReference: {fileID: 1583284667}
     - target: {fileID: 6135879121667696927, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -4713,6 +4733,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6135879121667696927, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8013958103240937998, guid: 08b9134fb4e7f534bbe0d4d3377e0733, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
