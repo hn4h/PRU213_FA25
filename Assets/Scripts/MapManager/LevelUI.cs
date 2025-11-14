@@ -11,6 +11,7 @@ public class LevelUI : MonoBehaviour
     
     private void Start()
     {
+        Time.timeScale = 1f;
         GameObject audioObject = GameObject.FindGameObjectWithTag("Audio");
         if (audioObject != null)
         {
