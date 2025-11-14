@@ -15,7 +15,7 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] Button optionButton;
     [SerializeField] Button quitButton;
 
-
+    [SerializeField] Button continueButton;
     AudioManager audioManager;
    private void Awake(){
         OptionPanelUI.SetActive(false);
@@ -23,7 +23,14 @@ public class MainMenuUI : MonoBehaviour
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         playButton.onClick.AddListener(() =>{
             audioManager.PlaySFX(audioManager.action);
+            ResetPlayerData();
             StartCoroutine(LoadSceneAfterDelay(Loader.Scene.Story));
+            
+        });
+        continueButton.onClick.AddListener(() =>
+        {
+            audioManager.PlaySFX(audioManager.action);
+            Loader.Load(Loader.Scene.LevelScreen);
         });
         optionButton.onClick.AddListener(() =>{
             audioManager.PlaySFX(audioManager.action);
@@ -52,5 +59,13 @@ public class MainMenuUI : MonoBehaviour
         // Đợi một chút để sound effect kịp phát
         yield return new WaitForSeconds(0.2f);
         Loader.Load(scene);
+    }
+
+    private void ResetPlayerData()
+    {
+        // Xóa toàn bộ dữ liệu lưu trong PlayerPrefs và đặt lại level mở khóa về 1
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.SetInt("UnlockedLevel", 1);
+        PlayerPrefs.Save();
     }
 }
