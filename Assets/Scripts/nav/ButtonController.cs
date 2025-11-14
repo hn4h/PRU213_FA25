@@ -6,13 +6,13 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Story");
     }
-    public void LoadMain(int sceneIndex)
-    {
-        SceneManager.LoadScene("MainScreen");
-    }
-    public void LoadLevel1(int sceneIndex)
-    {
-        SceneManager.LoadScene("senceExample");
-    }
+    //public void LoadMain(int sceneIndex)
+    //{
+    //    SceneManager.LoadScene("MainScreen");
+    //}
+    //public void LoadLevel1(int sceneIndex)
+    //{
+    //    SceneManager.LoadScene("senceExample");
+    //}
 
 }

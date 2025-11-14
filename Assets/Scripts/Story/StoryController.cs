@@ -21,4 +21,9 @@ public class StoryController : MonoBehaviour
     {
         SceneManager.LoadScene("LevelScreen");
     }
+
+        public void ToMenuScreen(int sceneIndex)
+    {
+        SceneManager.LoadScene("MainMenuScreen");
+    }
 }

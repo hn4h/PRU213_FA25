@@ -16,7 +16,7 @@ public class LevelEntrance : MonoBehaviour
     [SerializeField] private Transform nextLevelPosition;
     [SerializeField] private GameObject[] wallArray;
 
-    // private bool canMove;
+    // private bool canMove; 
     private HashSet<GameObject> playersOnEntrance = new HashSet<GameObject>();
     private bool canLift;
     private bool winsoundPlayed;

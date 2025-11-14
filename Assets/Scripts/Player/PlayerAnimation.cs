@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -17,18 +18,58 @@ public class PlayerAnimation : MonoBehaviour
     private float previousVelocityY = 0;
     private PlayerController playerController;
     private Rigidbody2D rb2d;
-    private void Start() {
+    private void Awake() {
         rb2d = this.GetComponent<Rigidbody2D>();
         previousVelocityY = rb2d.linearVelocity.y;
         animator = this.GetComponent<Animator>();
         playerController = this.GetComponent<PlayerController>();
+    }
+
+    void Start()
+    {
+        if(GameInput.Instance != null)
+        {
+            if (gameObject.tag == "Player1")
+            {
+                GameInput.Instance.GetPlayerInputSystem().Player1.Jump.performed += JumpAnimation;
+            }
+            else
+            {
+                GameInput.Instance.GetPlayerInputSystem().Player2.Jump.performed += JumpAnimation;
+            }
+        }
+    }
+
+    void OnEnable()
+    {
+         rb2d = this.GetComponent<Rigidbody2D>();
+        previousVelocityY = rb2d.linearVelocity.y;
+        animator = this.GetComponent<Animator>();
+        playerController = this.GetComponent<PlayerController>();
+         if(GameInput.Instance != null)
+        {
+        if (gameObject.tag == "Player1")
+            {
+                GameInput.Instance.GetPlayerInputSystem().Player1.Enable();
+                GameInput.Instance.GetPlayerInputSystem().Player1.Jump.performed += JumpAnimation;
+            }
+            else
+            {
+                GameInput.Instance.GetPlayerInputSystem().Player2.Enable();
+                GameInput.Instance.GetPlayerInputSystem().Player2.Jump.performed += JumpAnimation;
+            }
+        }
+    }
+
+    void OnDisable()
+    {
         if (gameObject.tag == "Player1")
         {
-            GameInput.Instance.GetPlayerInputSystem().Player1.Jump.performed += ctx => JumpAnimation(ctx);
+            GameInput.Instance.GetPlayerInputSystem().Player1.Jump.performed -= JumpAnimation;
         }
         else
         {
-            GameInput.Instance.GetPlayerInputSystem().Player2.Jump.performed += ctx => JumpAnimation(ctx);
+            GameInput.Instance.GetPlayerInputSystem().Player2.Jump.performed -= JumpAnimation;
         }
     }
 

@@ -15,6 +15,7 @@ public class MapManager : MonoBehaviour
     [SerializeField] private LevelEntrance levelEntrance;
     [SerializeField] private GameObject finishPoint;
 
+    [SerializeField] private Loader.Scene nextSceneName;
     // private ScoreKeeper scoreKeeper;
 
     AudioManager audioManager;
@@ -30,8 +31,8 @@ public class MapManager : MonoBehaviour
         {
             Instance = this;
         }
-        player1.GetComponent<PlayerHealth>().OnPlayerDie += PlayerHealth_OnPlayerDie;
-        player2.GetComponent<PlayerHealth>().OnPlayerDie += PlayerHealth_OnPlayerDie;
+        player1.GetComponent<PlayerHealth>().OnPlayerDie += PlayerHealth_OnPlayer1Die;
+        player2.GetComponent<PlayerHealth>().OnPlayerDie += PlayerHealth_OnPlayer2Die;
         // foreach (GameObject questionBox in secretQuestionBoxArray)
         // {
         //     questionBox.GetComponent<SecretQuesBox>().OnOpenSecretQuestion += QuestionBox_OnOpenSecretQuestion;
@@ -47,9 +48,12 @@ public class MapManager : MonoBehaviour
 
         //unlock new level
         finishPoint.GetComponent<FinishPoint>().UnlockNewLevel();
-
+        audioManager.PlaySFX(audioManager.win);
+        GameWinManager.Instance.Show();
+        Time.timeScale = 0f;
+        Pause.Instance.canPause = false;
         //loading the next level scene
-        Loader.LoadTheNextScene();
+        // Loader.Load(nextSceneName);
     }
 
     // private void Timer_OnWaitingTimeOver(object sender, EventArgs e)
@@ -80,7 +84,7 @@ public class MapManager : MonoBehaviour
     //      audioManager.PlayBackgroundMusic(audioManager.quizbackground);
     // }
 
-    private void PlayerHealth_OnPlayerDie(object sender, EventArgs e)
+    private void PlayerHealth_OnPlayer1Die(object sender, EventArgs e)
     {
         //Revive players
         
@@ -88,13 +92,26 @@ public class MapManager : MonoBehaviour
         audioManager.StopMusic();
         Destroy(player1);
         Destroy(player2);
-        //audioManager.PlaySFX(audioManager.lose);
-        GameOverManager.Instance.Show();
+        audioManager.PlaySFX(audioManager.lose);
+        GameOverManager.Instance.Show1Player1();
+        Debug.Log("A player 1 has died! Game Over!");
         Time.timeScale = 0f;
         Pause.Instance.canPause = false;
-        
     }
-
+    private void PlayerHealth_OnPlayer2Die(object sender, EventArgs e)
+    {
+        //Revive players
+        
+        audioManager.PlaySFX(audioManager.death);
+        audioManager.StopMusic();
+        Destroy(player1);
+        Destroy(player2);
+        audioManager.PlaySFX(audioManager.lose);
+        GameOverManager.Instance.Show1Player2();
+        Debug.Log("A player 2 has died! Game Over!");
+        Time.timeScale = 0f;
+        Pause.Instance.canPause = false;
+    }
     // private void Update() {
         
     //     if (scoreKeeper.GetQuestionCollect() == secretQuestionBoxArray.Length)
