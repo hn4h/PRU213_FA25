@@ -12,13 +12,16 @@ public class GameOverManager : MonoBehaviour
     [SerializeField] private Button playAgainButton;
     [SerializeField] private Button homeButton;
     [SerializeField] private GameObject pauseButton;
-    [SerializeField] private TextMeshProUGUI losingTimesText;
-    [SerializeField] private TextMeshProUGUI losingTimesInGameText; // Hiển thị khi đang chơi
-    
+    [SerializeField] private TextMeshProUGUI losingTimesPlayer1Text;
+    [SerializeField] private TextMeshProUGUI losingTimesInGamePlayer1Text;
+    [SerializeField] private TextMeshProUGUI losingTimesPlayer2Text;
+    [SerializeField] private TextMeshProUGUI losingTimesInGamePlayer2Text;
+
     AudioManager audioManager;
 
     // Per-level death counter (persists across scene reloads within the same level)
-    private static int s_LoseCount = 0;
+    private static int p1_LoseCount = 0;
+    private static int p2_LoseCount = 0;
     private static string s_CurrentLevelName = null;
 
    private void Awake(){
@@ -29,7 +32,8 @@ public class GameOverManager : MonoBehaviour
         if (s_CurrentLevelName != levelName)
         {
             s_CurrentLevelName = levelName;
-            s_LoseCount = 0;
+            p1_LoseCount = 0;
+            p2_LoseCount = 0;
         }
         Hide();
         
@@ -49,10 +53,20 @@ public class GameOverManager : MonoBehaviour
         losingUI.SetActive(false);
     }
 
-    public void Show()
+    public void Show1Player1()
     {
         // Increase lose count and update UI each time player loses
-        s_LoseCount++;
+        p1_LoseCount++;
+        RefreshLosingTimesUI();
+
+        losingUI.SetActive(true);
+        pauseButton.SetActive(false);
+    }
+
+    public void Show1Player2()
+    {
+        // Increase lose count and update UI each time player loses
+        p2_LoseCount++;
         RefreshLosingTimesUI();
 
         losingUI.SetActive(true);
@@ -70,19 +84,28 @@ public class GameOverManager : MonoBehaviour
         Loader.Load(Loader.Scene.LevelScreen);
         Time.timeScale = 1f;
         // Leaving the level: reset session counter
-        s_LoseCount = 0;
+        p1_LoseCount = 0;
+        p2_LoseCount = 0;
         s_CurrentLevelName = null;
     }
 
     private void RefreshLosingTimesUI()
     {
-        if (losingTimesText != null)
+        if (losingTimesPlayer1Text != null)
         {
-            losingTimesText.text = $"Losing times: {s_LoseCount}";
+            losingTimesPlayer1Text.text = $"Losing times P1: {p1_LoseCount}";
         }
-        if (losingTimesInGameText != null)
+        if (losingTimesInGamePlayer1Text != null)
         {
-            losingTimesInGameText.text = $"Losing times: {s_LoseCount}";
+            losingTimesInGamePlayer1Text.text = $"Losing times P1: {p1_LoseCount}";
+        }
+        if (losingTimesPlayer2Text != null)
+        {
+            losingTimesPlayer2Text.text = $"Losing times P2: {p2_LoseCount}";
+        }
+        if (losingTimesInGamePlayer2Text != null)
+        {
+            losingTimesInGamePlayer2Text.text = $"Losing times P2: {p2_LoseCount}";
         }
     }
 

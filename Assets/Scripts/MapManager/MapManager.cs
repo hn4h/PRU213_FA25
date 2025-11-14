@@ -31,8 +31,8 @@ public class MapManager : MonoBehaviour
         {
             Instance = this;
         }
-        player1.GetComponent<PlayerHealth>().OnPlayerDie += PlayerHealth_OnPlayerDie;
-        player2.GetComponent<PlayerHealth>().OnPlayerDie += PlayerHealth_OnPlayerDie;
+        player1.GetComponent<PlayerHealth>().OnPlayerDie += PlayerHealth_OnPlayer1Die;
+        player2.GetComponent<PlayerHealth>().OnPlayerDie += PlayerHealth_OnPlayer2Die;
         // foreach (GameObject questionBox in secretQuestionBoxArray)
         // {
         //     questionBox.GetComponent<SecretQuesBox>().OnOpenSecretQuestion += QuestionBox_OnOpenSecretQuestion;
@@ -84,7 +84,7 @@ public class MapManager : MonoBehaviour
     //      audioManager.PlayBackgroundMusic(audioManager.quizbackground);
     // }
 
-    private void PlayerHealth_OnPlayerDie(object sender, EventArgs e)
+    private void PlayerHealth_OnPlayer1Die(object sender, EventArgs e)
     {
         //Revive players
         
@@ -93,12 +93,25 @@ public class MapManager : MonoBehaviour
         Destroy(player1);
         Destroy(player2);
         audioManager.PlaySFX(audioManager.lose);
-        GameOverManager.Instance.Show();
-        Debug.Log("A player has died! Game Over!");
+        GameOverManager.Instance.Show1Player1();
+        Debug.Log("A player 1 has died! Game Over!");
         Time.timeScale = 0f;
         Pause.Instance.canPause = false;
     }
-
+    private void PlayerHealth_OnPlayer2Die(object sender, EventArgs e)
+    {
+        //Revive players
+        
+        audioManager.PlaySFX(audioManager.death);
+        audioManager.StopMusic();
+        Destroy(player1);
+        Destroy(player2);
+        audioManager.PlaySFX(audioManager.lose);
+        GameOverManager.Instance.Show1Player2();
+        Debug.Log("A player 2 has died! Game Over!");
+        Time.timeScale = 0f;
+        Pause.Instance.canPause = false;
+    }
     // private void Update() {
         
     //     if (scoreKeeper.GetQuestionCollect() == secretQuestionBoxArray.Length)

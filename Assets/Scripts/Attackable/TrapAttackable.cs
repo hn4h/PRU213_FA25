@@ -7,7 +7,7 @@ public class TrapAttackable : AbstractAttackable
     {
         if (other.CompareTag("Player1") || other.CompareTag("Player2"))
         {
-            other.GetComponent<PlayerHealth>().Die();
+            // other.GetComponent<PlayerHealth>().Die();
         }
     }
 }

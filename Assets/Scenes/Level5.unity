@@ -922,38 +922,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LoseCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 1391065173202971699, guid: 5388bf1b9b7788a4982f8b98b34e2c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6481741296976798044, guid: 5388bf1b9b7788a4982f8b98b34e2c9b, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6481741296976798044, guid: 5388bf1b9b7788a4982f8b98b34e2c9b, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6481741296976798044, guid: 5388bf1b9b7788a4982f8b98b34e2c9b, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6481741296976798044, guid: 5388bf1b9b7788a4982f8b98b34e2c9b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 430.21973
-      objectReference: {fileID: 0}
-    - target: {fileID: 6481741296976798044, guid: 5388bf1b9b7788a4982f8b98b34e2c9b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8576668457794053270, guid: 5388bf1b9b7788a4982f8b98b34e2c9b, type: 3}
       propertyPath: pauseButton
       value: 
       objectReference: {fileID: 1583284667}
-    - target: {fileID: 9184483101146188315, guid: 5388bf1b9b7788a4982f8b98b34e2c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

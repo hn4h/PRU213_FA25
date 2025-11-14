@@ -13,7 +13,7 @@ public class TerrainAttackable : AbstractAttackable
         {
             if (other.tag != terrainSO.player.ToString())
             {
-                other.GetComponent<PlayerHealth>().Die();
+                // other.GetComponent<PlayerHealth>().Die();
             }
         }
     }
